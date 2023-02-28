@@ -23,5 +23,14 @@
         }
     }
 
+    &-dark{
+        background: $clr-dark;
+        color: $clr-light;
+        border: $clr-dark;
+        &:hover{
+            background-color: darken($clr-dark,  10);
+        }
+    }
+
     
 }
